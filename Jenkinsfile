@@ -42,9 +42,9 @@ pipeline {
                 echo 'Deploying application to Production (AWS EC2).'
             }
         }
-        stage('Completed') {
+        stage('Completed the process.') {
             steps {
-                echo 'The Jenkins demo for GitHub is completed.'
+                echo 'The Jenkins demo for GitHub is completed and ready to build and test.'
             }
         }
     }
